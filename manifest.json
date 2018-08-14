@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "VideoSelector",
+  "version": "1.0",
+  "description": "유튜브에서 다른 요소를 모두 배제하고 영상만으로 브라우저를 가득 채웁니다.",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+  "scripts": ["background.js"],
+  "persistent": false
+  },
+
+  "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["myscript.js"]
+      }
+  ]
+
+
+}
