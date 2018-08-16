@@ -1,5 +1,5 @@
 # YoutubeRecommendCovering
-> 심심풀이로 만든 구글 확장프로그램 
+> 심심풀이로 만든 구글 확장프로그램. 개발자 등록에 5달러가 소요되는 관계로... 따로 배포는 안하고 혼자 쓰는 걸로...
 
 > chrome extension programming
 
