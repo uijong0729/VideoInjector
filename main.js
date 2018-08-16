@@ -10,17 +10,6 @@ window.onload = function() {
 
 }
 
-//팝업페이지가 아닌, 컨텐트 페이지를 대상으로 아래와 같은 코드를 실행한다.
-//chrome.tabs.executeScript({
-//  code: 'start()'
-//});
-
-/*
-chrome.tabs.executeScript({
-  code: 'alert("text");'
-
-});
-
 
 */
 function start(){

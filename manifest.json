@@ -1,13 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "VideoSelector",
+  "name": "YoutubeRecommendCovering",
   "version": "1.0",
-  "description": "유튜브에서 다른 요소를 모두 배제하고 영상만으로 브라우저를 가득 채웁니다.",
+  "description": "최근 본 영상, 추천영상 등을 숨깁니다. 확장프로그램 아이콘 클릭시 바로 숨겨집니다.",
 
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_icon": "icon.png"
   },
 
   "background": {
@@ -15,12 +14,7 @@
   "persistent": false
   },
 
-  "content_scripts": [
-      {
-        "matches": ["https://*/*", "http://*/*"],
-        "js": ["myscript.js"]
-      }
-  ]
+  "permissions": ["activeTab"]
 
 
 }
